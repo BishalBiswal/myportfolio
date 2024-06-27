@@ -1,0 +1,47 @@
+.card-grid {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    height: 500px;
+    width: 1000px;
+    background-color: #1e1e1e;
+    margin-left: 40px;
+    margin-top: 40px;
+    overflow-y: scroll;
+}
+
+.card {
+    margin: 10px;
+    background-color: #2d2d2d;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    height: 400px;
+    width: 300px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.card img {
+    width: 260px;
+    height: 180px;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+.image-placeholder {
+    background-color: #d8d8d8;
+    color: #000;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.card-grid p {
+    overflow: scroll;
+    font-size: 14px;
+    line-height: 1.6;
+}

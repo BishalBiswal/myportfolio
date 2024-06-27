@@ -1,0 +1,48 @@
+.education-card {
+    background-color: #2d2d2d;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.header h2 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.header .date {
+    font-size: 1em;
+}
+
+.institution {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #b0b0b0;
+}
+
+.institution p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.education-list {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    box-sizing: border-box;
+    max-width: 800px;
+    margin: 0 auto;
+    height: fit-content;
+}
