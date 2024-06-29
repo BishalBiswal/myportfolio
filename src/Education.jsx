@@ -3,6 +3,8 @@ import './EducationCard.css';
 
 const EducationCard = ({ title, institution, duration, description }) => {
     return (
+
+
         <div className="education-card">
             <div className="header">
                 <h2>{title}</h2>
@@ -11,6 +13,7 @@ const EducationCard = ({ title, institution, duration, description }) => {
             <div className="institution">{institution}</div>
             {description && <p>{description}</p>}
         </div>
+
     );
 };
 
@@ -37,17 +40,21 @@ const EducationList = () => {
     ];
 
     return (
-        <div className="education-list">
-            {educationDetails.map((edu, index) => (
-                <EducationCard
-                    key={index}
-                    title={edu.title}
-                    institution={edu.institution}
-                    duration={edu.duration}
-                    description={edu.description}
-                />
-            ))}
-        </div>
+        <>
+            <div className="education-list">
+                <h2>Education</h2><br />
+
+                {educationDetails.map((edu, index) => (
+                    <EducationCard
+                        key={index}
+                        title={edu.title}
+                        institution={edu.institution}
+                        duration={edu.duration}
+                        description={edu.description}
+                    />
+                ))}
+            </div>
+        </>
     );
 };
 
