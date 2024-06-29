@@ -2,7 +2,7 @@ import { useRef, useState, useEffect, useMemo } from 'react';
 import profile from './prof.jpg';
 import { TypeAnimation } from 'react-type-animation';
 import './App.css';
-import { FaUser, FaCode, FaCodeBranch, FaUserGraduate, FaPhoneAlt, FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa"
+import { FaUser, FaCode, FaCodeBranch, FaUserGraduate, FaEnvelope, FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa"
 import CardGrid from './CardGrid';
 import ExperienceCard from './Experience';
 import EducationList from './Education';
@@ -152,7 +152,7 @@ const App = () => {
           <div id="sidebarButton" onClick={() => handleClick(ref2)}><FaCodeBranch />Internships</div>
           <div id="sidebarButton" onClick={() => handleClick(ref3)}><FaUserGraduate />Education</div>
         </section>
-        <div id="sidebarButtonContact"><FaPhoneAlt />Contact Me</div>
+        <a href="mailto:bishalbiswalq@gmail.com"><div id="sidebarButtonContact"><FaEnvelope />Contact Me</div></a>
 
         <section className="contacts">
           <h2><a href='https://github.com/BishalBiswal'><FaGithub className=' icons' /></a>  <a href="https://x.com/calixlete"><FaTwitter className='icons' /></a>  <a href="https://www.linkedin.com/in/bishal-biswal-9157731ba/"><FaLinkedin className='icons' /></a></h2>
