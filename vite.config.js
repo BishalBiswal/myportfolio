@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ['react-type-animation', 'react-icons/fa', '@tsparticles/react']
+      external: ['react-type-animation', 'react-icons/fa', '@tsparticles/react', '@tsparticles/slim']
     }
   }
 })
