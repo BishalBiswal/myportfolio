@@ -43,7 +43,6 @@
     border-radius: 10px;
     box-sizing: border-box;
     max-width: 100%;
-    /* Adjust max-width to fit within screen */
     margin: 0 auto;
     height: fit-content;
 }

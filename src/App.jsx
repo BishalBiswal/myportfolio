@@ -122,7 +122,8 @@ const App = () => {
           </section>
 
           <section className="intro">
-            <h4>Hello, I am Bishal <br /> I am a &nbsp;
+            <h5>Hello, I am Bishal</h5>
+            <h2> I am a &nbsp;
               <TypeAnimation
                 sequence={[
                   "Machine learning Enthusiast", 1000,
@@ -132,8 +133,12 @@ const App = () => {
                 wrapper="span"
                 cursor={true}
                 repeat={Infinity}
-              /></h4>
-            <p>I'm a programmer driven by curiosity and challenges. My passion for coding and attention to detail fuel my dedication to producing high-quality work while continuously learning. I enjoy tackling complex problems and developing innovative solutions, ensuring each project is an opportunity to expand my knowledge and skills. My goal is to make meaningful contributions and grow as a versatile developer.</p>
+              /></h2>
+            <p>
+              <b><i>I'm a</i></b> curious and challenge-driven programmer passionate about coding and detail-oriented work. <br />
+              <b><i>I use</i></b> each project to expand my skills, tackling complex problems and developing innovative solutions.<br />
+              <b><i>I aim</i></b> to make meaningful contributions and grow as a versatile developer.
+            </p>
           </section>
         </div>
         <div ref={ref1} className='page2'>
@@ -147,10 +152,10 @@ const App = () => {
         </div>
 
         <section className="sideBar">
-          <div id="sidebarButton" onClick={() => handleClick(ref)}><FaUser />About</div>
-          <div id="sidebarButton" onClick={() => handleClick(ref1)}><FaCode />Projects</div>
-          <div id="sidebarButton" onClick={() => handleClick(ref2)}><FaCodeBranch />Internships</div>
-          <div id="sidebarButton" onClick={() => handleClick(ref3)}><FaUserGraduate />Education</div>
+          <a><div id="sidebarButton" onClick={() => handleClick(ref)}><FaUser />About</div></a>
+          <a><div id="sidebarButton" onClick={() => handleClick(ref1)}><FaCode />Projects</div></a>
+          <a><div id="sidebarButton" onClick={() => handleClick(ref2)}><FaCodeBranch />Experience</div></a>
+          <a><div id="sidebarButton" onClick={() => handleClick(ref3)}><FaUserGraduate />Education</div></a>
         </section>
         <a href="mailto:bishalbiswalq@gmail.com"><div id="sidebarButtonContact"><FaEnvelope />Contact Me</div></a>
 
