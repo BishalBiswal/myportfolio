@@ -69,14 +69,14 @@ const App = () => {
             default: "bounce",
           },
           random: false,
-          speed: 6,
+          speed: 3,
           straight: false,
         },
         number: {
           density: {
             enable: true,
           },
-          value: 80,
+          value: 150,
         },
         opacity: {
           value: 0.5,
@@ -112,7 +112,7 @@ const App = () => {
         <div ref={ref} className="page1 ">
           <section className="photo">
             <img src={profile}></img>
-            <a href="https://drive.google.com/file/d/1705S1GFIS4pNJEt4X6q9Q_CN6u-5aRVx/view?usp=sharing"><button>My resume</button></a>
+            <a href="https://drive.google.com/file/d/1705S1GFIS4pNJEt4X6q9Q_CN6u-5aRVx/view?usp=sharing" ><button>My resume</button></a>
           </section>
 
           <section className="intro">
@@ -156,7 +156,7 @@ const App = () => {
         <section className="contacts">
           <h2><a href='https://github.com/BishalBiswal'><FaGithub className=' icons' /></a>  <a href="https://x.com/calixlete"><FaTwitter className='icons' /></a>  <a href="https://www.linkedin.com/in/bishal-biswal-9157731ba/"><FaLinkedin className='icons' /></a></h2>
         </section>
-      </div>
+      </div >
     </>
   );
 }

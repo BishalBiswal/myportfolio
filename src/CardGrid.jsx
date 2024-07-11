@@ -39,7 +39,7 @@ const CardGrid = () => {
             content: "A smart face mask detection system that turns motor(for smart door) and changes led light's colour depending on if youre wearing a mask or not",
             link: 'https://github.com/BishalBiswal/smart-face-mask-detection-system',
             imageUrl: mask,
-            tags: ['IoT', 'Python', 'TinkerCAD', 'Selenium', 'OpenCV', 'Tensorflow', 'Numpy']
+            tags: ['IoT', 'Python', 'TinkerCAD', 'Dlib', 'Selenium', 'OpenCV', 'Tensorflow', 'Numpy']
         },
         {
             id: 5,
