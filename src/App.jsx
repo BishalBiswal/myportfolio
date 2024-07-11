@@ -12,13 +12,7 @@ const App = () => {
   const [init, setInit] = useState(false);
   useEffect(() => {
     initParticlesEngine(async (engine) => {
-      // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
-      // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
-      // starting from v2 you can add only the features you need reducing the bundle size
-      //await loadAll(engine);
-      //await loadFull(engine);
       await loadSlim(engine);
-      //await loadBasic(engine);
     }).then(() => {
       setInit(true);
     });
@@ -118,7 +112,7 @@ const App = () => {
         <div ref={ref} className="page1 ">
           <section className="photo">
             <img src={profile}></img>
-            <a href="https://drive.google.com/file/d/1MJ5_JGecqyLAjTbhG8E7l05ZJp87Ho30/view?usp=sharing"><button>My resume</button></a>
+            <a href="https://drive.google.com/file/d/1705S1GFIS4pNJEt4X6q9Q_CN6u-5aRVx/view?usp=sharing"><button>My resume</button></a>
           </section>
 
           <section className="intro">
